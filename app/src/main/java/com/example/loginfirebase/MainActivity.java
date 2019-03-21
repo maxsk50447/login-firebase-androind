@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void signUpClick(View view) {
 	    String getEmail = email.getText().toString();
-	    String getPassword = email.getText().toString();
+	    String getPassword = password.getText().toString();
 	    email.onEditorAction(EditorInfo.IME_ACTION_DONE);
 	    password.onEditorAction(EditorInfo.IME_ACTION_DONE);
 	    createAccount(getEmail, getPassword);
